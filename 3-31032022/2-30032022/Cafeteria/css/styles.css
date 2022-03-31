@@ -102,3 +102,49 @@ footer div {
   width: 50px;
   height: 50px;
 }
+
+/* --------------- Início do CSS da HOME ------------------- */
+
+h2 {
+  font-family: "arial";
+  font-size: 30pt;
+  margin: 50px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+#home p {
+  width: 90%;
+  margin-left: auto; /*para a margem ficar alinhada para a esquerda*/
+  margin-right: auto; /*para margem ficar alinhada para direira*/
+  font-family: "verdana"; /*Tipo de Fonte*/
+  font-size: 12pt; /*Tamanho da Fonte*/
+  line-height: 20pt; /* <-- Espaçamento de Linhas */
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center; /*Para deixar a imagem no centro*/
+}
+
+#imgHome img {
+  width: 400px; /*Largura da Imagem*/
+
+  height: 400px; /*Altura da Imagem*/
+
+  margin: 50px; /*Margin da Imagem*/
+
+  border-radius: 100px; /*Arredondar a Imagem*/
+
+  opacity: 1; /*Deixar Tranparente a Imagem*/
+
+  transition: ease 0.8s; /*Transição da Imagem*/
+
+  /* Mudar o ponteiro do mouse para uma mão */
+  cursor: pointer;
+}
+
+#imgHome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
