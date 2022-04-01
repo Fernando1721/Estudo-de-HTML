@@ -55,7 +55,7 @@ nav ul li {
   display: inline-block;
 
   /* aumentar a distância entre os elementos */
-  padding: 20px;
+  padding: 20px; /* aumentar a margem interna */
   transition: 1s;
 }
 
@@ -232,4 +232,49 @@ h3 {
   color: darkslategray;
   margin: 10px;
   font-weight: bold;
+}
+
+/* --------- Formatação CSS para a página contato --------- */
+
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  background-color: rgba(248, 226, 126, 0.733);
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 1px solid rgb(145, 121, 121);
+  border-radius: 5px;
+  display: block;
+}
+main form input[type="tel"],
+main form select {
+  width: 40%;
+}
+main form textarea {
+  height: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(231, 217, 139);
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  border: 2px solid black;
 }
