@@ -35,6 +35,11 @@ header {
   padding-top: 110px;
 }
 
+header a,
+#fechar {
+  opacity: 0;
+}
+
 h1 {
   text-align: center;
   font-family: verdana;
@@ -46,8 +51,8 @@ h1 {
 
 nav {
   background-color: rgba(189, 163, 46, 0.733);
-
   text-align: center;
+  transition: ease 0.5s;
 }
 
 nav ul li {
@@ -330,8 +335,42 @@ main form input[type="submit"] {
     margin-right: 140px;
   }
 
-  body {
-    background-color: rgb(165, 146, 146);
+  header a {
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+  }
+  #fechar {
+    opacity: 1;
+    color: #fff;
+    font-size: 15pt;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-decoration: none;
+  }
+
+  iframe {
+    width: 90%;
+  }
+
+  #linha {
+    flex-direction: column;
+  }
+
+  #linha div {
+    width: 90%;
+  }
+  main form {
+    width: 90%;
+  }
+  #mapa iframe {
+    width: 90%;
   }
 }
 
